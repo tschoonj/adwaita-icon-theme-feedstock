@@ -1,5 +1,5 @@
 {% set name = "adwaita-icon-theme" %}
-{% set version = "3.36.0" %}
+{% set version = "3.36.1" %}
 {% set majmin_version = "3.36" %}
 
 package:
@@ -8,13 +8,13 @@ package:
 
 source:
   url: https://download.gnome.org/sources/{{ name }}/{{ majmin_version }}/{{ name }}-{{ version }}.tar.xz
-  sha256: 1a172112b6da482d3be3de6a0c1c1762886e61e12b4315ae1aae9b69da1ed518
+  sha256: e498518627044dfd7db7d79a5b3d437848caf1991ef4ef036a2d3a2ac2c1f14d
 
 build:
   number: 0
-  merge_build_host: False  # [not win]
+  merge_build_host: false  # [not win]
   # windows build assume one prefix (between e.g. python/gtk3), so use merged host/build
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   ignore_run_exports:
     - gtk3  # [win]
     - librsvg  # [win]
@@ -55,7 +55,7 @@ about:
   license: LGPL-3.0-or-later OR CC-BY-SA-3.0
   license_family: LGPL
   license_file: COPYING
-  summary: 'The default icon theme used by the GNOME desktop'
+  summary: The default icon theme used by the GNOME desktop
   description: |
     This package contains the default icon theme used by the GNOME desktop.
     The icons are used in many of the official GNOME applications like eog,
