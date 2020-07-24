@@ -11,7 +11,7 @@ source:
   sha256: e498518627044dfd7db7d79a5b3d437848caf1991ef4ef036a2d3a2ac2c1f14d
 
 build:
-  number: 0
+  number: 1
   merge_build_host: false  # [not win]
   # windows build assume one prefix (between e.g. python/gtk3), so use merged host/build
   merge_build_host: true  # [win]
