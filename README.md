@@ -5,7 +5,7 @@ Home: https://developer.gnome.org
 
 Package license: LGPL-3.0-or-later OR CC-BY-SA-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: The default icon theme used by the GNOME desktop
 
@@ -36,6 +36,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9564&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/adwaita-icon-theme-feedstock?branchName=master&jobName=linux&configuration=linux_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9564&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/adwaita-icon-theme-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -160,4 +167,5 @@ Feedstock Maintainers
 
 * [@ryanvolz](https://github.com/ryanvolz/)
 * [@stuarteberg](https://github.com/stuarteberg/)
+* [@tschoonj](https://github.com/tschoonj/)
 
